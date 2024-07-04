@@ -1,0 +1,46 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.fb-logo{
+    width: 31.25rem;
+    margin-left: 16.25rem;
+}
+
+.fb {
+    color: #1877F2;
+    font-size: 3.75rem;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    margin-top: 12.5rem;
+    width: 31.25rem;
+    
+
+}
+
+#fb-para {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 1.75rem;
+    font-weight: normal;
+    line-height: 2rem;
+    width: 31.25rem;
+    color: #1c1e21;
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}

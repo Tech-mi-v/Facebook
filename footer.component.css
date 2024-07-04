@@ -1,0 +1,42 @@
+*{
+    margin-top: 11.875rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+.foo{
+    margin-top: 13.125rem;
+
+}
+
+.footer{
+    text-decoration: none;
+    color: #737373;
+    font-size: .75rem;
+    margin-left: 16.25rem;
+    word-spacing: 1.25rem;
+}
+
+
+
+.hrr{
+    margin-top: 1.25rem;
+    width: 61.25rem;
+}
+
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}

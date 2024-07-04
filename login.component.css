@@ -1,0 +1,146 @@
+html{
+    font-size:  62.5%;
+}
+
+
+
+.box{
+    height:  19.927rem;
+    width: 24.75rem;
+    border: 0.125rem solid black;
+    padding: 0.625rem 0rem 1.5rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-left: 52.5rem;
+    margin-top: -12.5rem;
+    border-radius: 0.625rem;
+    border: 0.063rem solid rgba(122, 109, 109, 0.515) ;
+}
+
+.email{
+    height: 1.288rem;
+    width: 20.913rem;
+    padding: 0.875rem 1rem;
+    margin-left: .75rem;
+    border-radius: .375rem;
+    border: .063rem solid rgba(122, 109, 109, 0.515);
+    font-size: 1rem;
+}
+
+.email:hover{
+    border: .125rem solid #1877F2;
+}
+
+.Password{
+    height: 1.288rem;
+    width: 20.913rem;
+    padding: 0.875rem 1rem;
+    margin-left: .75rem;
+    margin-top: .5rem;
+    border-radius: .375rem;
+    border: .063rem solid rgba(122, 109, 109, 0.515);
+    font-size: 1rem;
+}
+
+.Password:hover{
+    border: .125rem solid #1877F2;
+
+}
+
+.btn{
+    height: 2.85rem;
+    width: 22.975rem;
+    padding: .875rem 1rem;
+    margin-left: .75rem;
+    margin-top: 1rem;
+    margin-bottom: .75rem;
+    border-radius: .375rem;
+    border: .063rem solid #1877F2;
+    background-color: #1877F2;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.link{
+    margin-top: .5rem;
+    margin-left: 8rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #1877F2;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.hr{
+    width: 21.875rem;
+    margin-top: 1.25rem;
+}
+
+.create{
+    height: 3rem;
+    width: 12.038rem;
+    font-size: 1.063rem;
+    padding: 0rem 1rem;
+    background-color: #42b72a;
+    color: #ffffff;
+    border: none;
+    margin-top: .75rem;
+    margin-left: 6.25rem;
+    border-radius: .5rem;
+}
+
+
+#create{
+    margin-top: 1.25rem;  
+}
+
+#create:hover{
+    cursor: pointer;
+}
+
+
+.link2{
+    margin-left: 52.5rem;
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: .875rem;
+    font-weight: normal;
+    padding-top: 0rem;
+    text-decoration: none;
+
+    
+}
+
+
+.p2{
+    margin-left: 58.625rem;
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: .875rem;
+    font-weight: normal;
+    padding-top: 0rem;
+    margin-top: -0.938rem;
+
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
